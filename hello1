@@ -1,0 +1,14 @@
+ input
+ def Fibanacci(n):
+  if n < 0:
+        print("incorrent input")
+  elif n== 0:
+    return 0
+  elif n==1 or n ==2:
+        return 1
+  else:
+    return Fibanacci(n-1) + Fibanacci(n-2)
+print(Fibanacci(9))
+
+output
+34
